@@ -44,7 +44,6 @@ borrar.addEventListener('click', function(e){
     // Recuperamos la lista de elementos
     let lista = document.getElementById("lista")
     let elementos = lista.getElementsByTagName("li")
-    console.log(elementos)
     // Si la posición introducida es mayor que los elementos que tiene la lista mostramos una alerta
     if(posicion > elementos.length){
         alert("No hay tantos elementos en la lista")

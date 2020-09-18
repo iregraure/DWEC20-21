@@ -34,5 +34,5 @@ ordena.addEventListener('click', function(e){
         document.write('</td></tr>')
     });
     // Cuando hemos terminado de añadir todas las filas cerramos la tabla
-    document.write('</table')
+    document.write('</table>')
 })
