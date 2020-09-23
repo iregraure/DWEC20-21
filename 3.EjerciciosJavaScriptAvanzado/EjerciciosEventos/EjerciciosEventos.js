@@ -43,7 +43,20 @@ boton.addEventListener('click', (e) => {
 
 const muestraEntradaPorTeclado = () => {
     let textoForm = document.getElementById("textoForm");
-    textoForm.addEventListener('keydown', (e) => {
+    textoForm.addEventListener('keyup', (e) => {
         console.log(e.key);
     })
 }
+
+// Ejercicio 4
+let galeria = document.getElementById("gallery");
+
+galeria.addEventListener('click', (e) => {
+    e.preventDefault();
+    if(e.target.className.match('gallery_item')){
+        e.target.classList.replace('gallery_item', 'gallery_click');
+    }
+    else{
+        e.target.classList.replace('gallery_click', 'gallery_item');
+    }
+})

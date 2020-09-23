@@ -1,0 +1,39 @@
+/* Ejercicio 1 */
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.sobre {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+/* Ejercicio 4 */
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    width: 350px;
+}
+
+.gallery_item {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.gallery_click {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background: red;
+}
