@@ -1,0 +1,78 @@
+* {
+    font-size: 18px;
+}
+
+body {
+    background-color: #f4e6ff;
+}
+
+h1 {
+    margin-top: 4vw;
+    margin-left: 12vw;
+    font-size: 36px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: solid 4px indigo;
+    background-color: #bf66ff;
+    border-radius: 20px;
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.opcionForm {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.opcionForm input {
+    width: 40%;
+}
+
+#enviar {
+    width: 50%;
+    align-self: center;
+    margin: 10px;
+}
+
+#resultados {
+    padding: 20px;
+}
+
+#resul {
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#usuarios,
+#valor {
+    width: 42%;
+    padding: 4px 0.5vw;
+}
+
+p {
+    margin: 0;
+}
+
+#divEliminar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#eliminar,
+#eliminarTodo {
+    width: 45%;
+}

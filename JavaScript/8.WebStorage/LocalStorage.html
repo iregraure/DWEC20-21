@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="LocalStorage.css" media="screen">
+</head>
+
+<body>
+    <h1>Local Storage</h1>
+    <form id="formulario">
+        <div id="form">
+            <div class="opcionForm">
+                <label for="user">Nombre de usuario</label>
+                <input type="text" name="user" id="user">
+            </div>
+            <div class="opcionForm">
+                <label for="name">Nombre completo</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="opcionForm">
+                <label for="age">Edad</label>
+                <input type="text" name="age" id="age">
+            </div>
+            <div class="opcionForm">
+                <label for="gender">Genero</label>
+                <input type="text" name="gender" id="gender">
+            </div>
+            <button id="enviar">Guardar</button>
+        </div>
+        <div id="resultados">
+            <div id="resul">
+                <select id="usuarios">
+                    <option value="default">Selecciona un usuario</option>
+                </select>
+                <p id="valor"></p>
+            </div>
+            <div id="divEliminar">
+                <button id="eliminar">Eliminar usuario</button>
+                <button id="eliminarTodo">Eliminar todos los usuarios</button>
+            </div>
+        </div>
+    </form>
+    <script src="LocalStorage.js" type="text/javascript"></script>
+</body>
+
+</html>
